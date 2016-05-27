@@ -1,0 +1,25 @@
+"*":
+  "atom-autocomplete-php":
+    binComposer: "/usr/bin/composer"
+    verboseErrors: true
+  docblockr:
+    align_tags: "no"
+    extra_tags_go_after: true
+    spacer_between_sections: true
+  editor:
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "699c4a54-0526-aec7-84ec-d57d0e47c73e"
+  "file-icons":
+    forceShow: true
+  linter:
+    ignoreVCSIgnoredFiles: false
+    showErrorTabLine: true
+  "php-fmt":
+    executablePath: "/root/fmt.phar"
+    lintBefore: true
+    useSpaceIndentation: true
+    visibilityOrder: true
+  welcome:
+    showOnStartup: false
