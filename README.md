@@ -1,4 +1,4 @@
-# Atom editor for PHP in Docker container
+# Atom.io editor [![Docker Stars](https://img.shields.io/docker/stars/rakshazi/atom-editor.svg?maxAge=2592000)](https://hub.docker.com/r/rakshazi/atom-editor/)[![Docker Pulls](https://img.shields.io/docker/pulls/rakshazi/atom-editor.svg?maxAge=2592000)](https://hub.docker.com/r/rakshazi/atom-editor/)
 
 ### Usage (manual)
 
