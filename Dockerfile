@@ -27,7 +27,7 @@ RUN apt-get -qq update && \
     curl -L https://atom.io/download/deb > /tmp/atom.deb && \
     dpkg -i /tmp/atom.deb && \
     rm -f /tmp/atom.deb && \
-    apm install ${ATOM_PACKAGES}
+    apm install ${ATOM_PACKAGES} && \
     apm rebuild ${ATOM_PACKAGES}
 
 RUN curl -L https://github.com/phpfmt/releases/raw/master/releases/lts/803.3/fmt.phar > /root/fmt.phar
